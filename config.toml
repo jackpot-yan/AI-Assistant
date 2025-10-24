@@ -1,0 +1,11 @@
+[model]
+deploy = "ollama"
+host = 'http://localhost:11434'
+model_name = "hf.co/defog/sqlcoder-7b-2:Q5_K_M"
+[database]
+database_type = 'mysql'
+database_url = "localhost"
+database_name = "test"
+[logging]
+level='info'
+file_path='app.log'
